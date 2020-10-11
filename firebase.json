@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "KanBan-board",
+      "public": "dist/KanBan-board",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

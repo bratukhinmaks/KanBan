@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "kanban-b4548": {
+      "hosting": {
+        "KanBan-board": [
+          "kanban-b4548"
+        ]
+      }
+    }
+  }
+}
