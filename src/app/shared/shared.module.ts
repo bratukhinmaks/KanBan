@@ -12,7 +12,7 @@ import {
 import {LayoutModule} from '@angular/cdk/layout';
 import { ShellComponent } from './shell/shell.component';
 import {RouterModule} from '@angular/router';
-import {ReactiveFormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 const components = [ShellComponent];
 
@@ -30,7 +30,8 @@ const modules = [
   MatInputModule,
   MatSnackBarModule,
   RouterModule,
-  ReactiveFormsModule
+  ReactiveFormsModule,
+  FormsModule
 ];
 
 @NgModule({

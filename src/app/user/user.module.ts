@@ -14,7 +14,6 @@ import { EmailLoginComponent } from './email-login/email-login.component';
     CommonModule,
     UserRoutingModule,
     SharedModule,
-
   ]
 })
 export class UserModule { }
